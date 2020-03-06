@@ -1,0 +1,168 @@
+/*SM breakpoint*/
+@media( min-width:576px){
+    .home h1{
+
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+
+}
+
+
+
+/*MD breakpoint*/
+@media(min-width:768px){
+    .home h1{
+
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .about{
+        padding: 80px 0;
+    }
+
+
+
+}
+
+
+
+/*LG breakpoint*/
+@media(min-width:992px){
+
+    .section-title{
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+
+    #main-menu{
+        margin: 0px;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        padding: 25px 10px;
+    }
+
+
+    .home h1{
+        color:#fff;
+        font-size: 82px;
+        line-height: 98px;
+    }
+
+    .home .triangle, 
+    .video .triangle, 
+    .portfolio .triangle{
+        height: 150px;
+        border-bottom: 75px solid #fff;
+        border-top: 75px solid transparent;
+    }
+
+    .about{
+        padding: 111px 0;
+    }
+
+    .about h2{
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .about figure {
+        overflow: hidden;
+    }
+
+    .about figure img{
+        transition: 0.4s linear;
+    }
+
+    .about figure:hover img{
+        transform: scale(1.1);
+    }
+
+    .video, 
+    .portfolio{
+        padding: 223px 0;
+    }
+
+    .video .triangle-top,
+    .portfolio .triangle-top{
+        height: 150px;
+        border-top: 75px solid #fff;
+        border-bottom: 75px solid transparent;
+    }
+
+
+
+    .team{
+        padding: 114px 0;
+    }
+
+    .team .team-member figure{
+        width: 200px;
+        height: 200px;
+    }
+
+    .parallax{
+        padding: 300px  0;
+    }
+    .parallax .triangle-top, 
+    .parallax .triangle-bottom{
+        height: 150px;
+        border-top-width: 75px;
+        border-bottom-width: 75px;
+    }
+
+    .principles figure{
+        overflow: hidden;
+    }
+
+    .principles figure img{
+        transition: 0.4s linear;
+    }
+
+    .principles figure:hover img{
+        transform: scale(1.1);
+    }
+
+    .achievements{
+        padding: 110px 0;
+    }
+
+    .achievements .far{
+        font-size: 90px;
+    }
+    .achievements .achievement-value{
+        font-size: 84px;
+        line-height: 90px;
+    }
+
+    .testimonials{
+        padding: 110px 0;
+    }
+
+    .contact{
+        padding: 220px 0 110px;
+    }
+    .contact .triangle{
+        height: 150px;
+        border-top:75px solid #fff;
+        border-bottom:75px solid transparent;
+
+    }
+
+
+}
+
+/*XL breakpoint*/
+@media(min-width:1200px){
+
+
+
+    .team .team-member figure{
+        width: 220px;
+        height: 220px;
+    }
+
+}
